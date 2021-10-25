@@ -10,7 +10,7 @@ public class Primitivos {
         System.out.println("Informe um valor: ");
         valor = input.nextInt();
         System.out.println(valor);
-        int valor2 = valor;
+        int valor2 = valor.intValue();
         System.out.println(valor2);
         }
 }
